@@ -1,0 +1,71 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dt,dd,dl,input{margin:0;padding:0;}
+
+body {
+	background-color: black;
+	overflow: hidden;
+}
+
+/*--------------------------------------main*/
+#main {
+	width: 40%;
+	margin:0 auto;
+	background-color: red;
+	text-align: center;
+}
+
+#header {
+	height: 60%;
+	line-height: 300px;
+	font-size: 60px;
+	color: black;
+}
+
+#nav {
+	height: 40%;
+}
+
+.button {
+	width: 12%;
+	height: 25%;
+	background-color: white;
+	border:1px solid white;
+	border-radius: 5em;
+	font-size: 23px;
+	color: black;
+	/*背景颜色渐变*/
+	-webkit-transition: all .5s;   
+    -moz-transition: all .5s;   
+    -ms-transition: all .5s;   
+    -o-transition: all .5s;   
+    transition: all .5s;
+}
+
+#back {
+	float: left;
+	margin-left: 25%;
+}
+
+#again {
+	float: right;
+	margin-right: 25%;
+}
+
+i {
+	
+	margin-top: 30%;
+}
+
+#back:hover, #again:hover {
+	background-color: transparent;
+	color: white;
+}
+
+@media (min-width:320px) and (max-width:1000px) {
+	#main {
+		width: 100%;
+		overflow: hidden;
+	}
+	.button {
+		height: 15%;
+	}
+}

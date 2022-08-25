@@ -1,0 +1,145 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	margin:0;
+	padding:0;
+}
+
+/*--------------------------------------main*/
+#main {
+	width: 40%;
+	margin:0 auto;
+	background-color: black;
+	overflow: hidden;
+}
+
+#form-denglu {
+	position: absolute;
+	width: 20%;
+	height: 66.8%;
+	background-color: white;
+	z-index: 999;
+	margin-left: 20%;
+}
+
+.grad {
+	background: linear-gradient(white, black); /* 标准的语法 */
+}
+
+.line {
+	width: 100%;
+	line-height: 190px;
+	animation: bgblur 1.5s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes bgblur {
+	from { filter: blur(0px); }
+	to { filter: blur(3px); }
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float:right;
+}
+
+#jingdian {
+	animation-delay: 0s;
+	animation: slideRight1 1s;
+}
+
+@keyframes slideRight1 {
+	from {left: -50%;}
+	to {left: 0;}
+}
+
+#jingji {
+	animation: slideLeft1 1s;
+}
+
+@keyframes slideLeft1 {
+	from {right: -50%;}
+	to {right: 0;}
+}
+
+#shuangshou {
+	animation: slideRight2 1.5s;
+}
+
+@keyframes slideRight2 {
+	from {left: -150%;}
+	to {left: 0;}
+}
+
+#shuangren {
+	animation: slideLeft2 1.5s;
+}
+
+@keyframes slideLeft2 {
+	from {right: -150%;}
+	to {right: 0;}
+}
+
+#jieli {
+	animation: slideRight3 2s;
+}
+
+@keyframes slideRight3 {
+	from {left: -300%;}
+	to {left: 0;}
+}
+
+#paihangbang {
+	animation: slideLeft3 2s;
+}
+
+@keyframes slideLeft3 {
+	from {right: -300%;}
+	to {right: 0;}
+}
+
+.white {
+	background-color: white;
+	color: black;
+}
+
+.black {
+	background-color: black;
+	color: white;
+}
+
+.xuanze {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+}
+
+@media (min-width:320px) and (max-width:1000px) {
+	#main {
+		width: 100%;
+	}
+
+	.login {
+		line-height: 250px;
+		font-size: 30px;
+	}
+
+	form {
+		top: 45%;
+	}
+
+	.line {
+		line-height: 500px;
+	}
+
+	.xuanze {
+		font-size: 50px;
+		
+	}
+}

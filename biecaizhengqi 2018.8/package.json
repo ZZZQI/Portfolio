@@ -1,0 +1,28 @@
+{
+  "name": "biecaizhengqi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZZZQI/biecaizhengqi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZZZQI/biecaizhengqi/issues"
+  },
+  "homepage": "https://github.com/ZZZQI/biecaizhengqi#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-route": "^3.2.0",
+    "koa-socket": "^4.4.0",
+    "koa-static": "^5.0.0",
+    "mysql-pro": "^1.0.1",
+    "socket.io": "^2.1.1"
+  }
+}
